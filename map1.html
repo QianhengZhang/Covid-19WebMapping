@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>USA Covid-19 rates</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <script src="js/map1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class='map-overlay' id='features'>
+        <h2>US Covid-19 Case Rates</h2>
+        <div id='text-escription'>
+            <p>Hover over a county!</p>
+        </div>
+    </div>
+    <div class='map-overlay' id='legend'>
+    </div>
+    <div id="introduction">
+        <h2>Introduction</h2>
+        <div id='text-escription'>
+            <p id="intro-text">This map is a choropleth map of each USA county's
+                Covid-19 case numbers per 1000 people. The range of case numbers
+                are divided into five sections and represented in different colors.
+                The Covid-19 data comes from the New York Times and the population
+                data comes from the 2018 ACS five year estimates.
+            </p>
+        </div>
+        <button>hide</button>
+    </div>
+</body>
+
+</html>

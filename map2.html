@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>USA Covid-19 Cases in 2020</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <script src="js/map2.js"></script>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="title">
+        <strong>USA Covid-19 Cases in 2020</strong>
+        <br>
+        <p id="intro">This map uses proportional symbols to show the case numbers
+            of each county in the USA in 2020. It has 4 level of case
+            numbers in a log scale legend when each level is represented
+            by a different color. To show the emergency behind
+            the case numbers, colors are between yellow and red.
+            All data are from the New York Times.
+        </p>
+        <button>hide</button>
+    </div>
+    <div id="info">
+        <strong>click the dots!</strong>
+    </div>
+    <div id="legend"></div>
+</body>
+
+</html>
