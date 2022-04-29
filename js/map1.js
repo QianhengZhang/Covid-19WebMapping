@@ -27,12 +27,12 @@
 
         async function geojsonFetch() {
             let response = await fetch('assets/us-covid-2020-rates.json');
-            let stateData = await response.json();
+            let countyData = await response.json();
 
             map.on('load', function loadingData() {
                 map.addSource('countyData', {
                     type: 'geojson',
-                    data: stateData
+                    data: countyData
                 });
 
                 map.addLayer({
