@@ -19,14 +19,14 @@
             'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
         let map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/navigation-day-v1',
-            zoom: 4,
-            center: [-100, 38],
+            style: 'mapbox://styles/mapbox/navigation-night-v1',
+            zoom: 4.5,
+            center: [-94, 40],
             projection: 'albers'
         });
 
         const case_number = [100, 1000, 10000, 100000],
-            colors = ['rgb(0, 110, 127)', 'rgb(248, 203, 46)', 'rgb(238, 80, 7)', 'rgb(178, 39, 39)'],
+            colors = ['rgb(254,204,92)', 'rgb(253,141,60)', 'rgb(227,26,28)', 'rgb(200,0,38)'],
             radii = [3, 9, 15, 21];
 
 
@@ -42,7 +42,6 @@
                     'source': 'covid19-cases',
                     'minzoom': 4,
                     'maxzoom': 12,
-                    'icon-allow-overlap' : true,
                     'buffer': 512,
                     'paint': {
                         'circle-radius': {
@@ -77,7 +76,7 @@
                         },
                         'circle-stroke-color': 'white',
                         'circle-stroke-width': 0.5,
-                        'circle-opacity': 0.6
+                        'circle-opacity': 0.9
                     }
                 }
             );

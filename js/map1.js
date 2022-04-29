@@ -43,15 +43,15 @@
                         'fill-color': [
                             'step',
                             ['get', 'rates'],
-                            '#FFD07F',
+                            '#feedde',
                             25,
-                            '#FDA65D',
+                            '#fdbe85',
                             50,
-                            '#FF8243',
+                            '#fd8d3c',
                             100,
-                            '#E26A2C',
+                            '#e6550d',
                             200,
-                            '#B20600'
+                            '#a63603'
                         ],
                         'fill-outline-color': '#041C32',
                         'fill-opacity': 0.9,
@@ -66,11 +66,11 @@
                     '>200'
                 ];
                 const colors = [
-                    '#FFD07F70',
-                    '#FDA65D70',
-                    '#FF824370',
-                    '#E26A2C70',
-                    '#B2060070'
+                    '#feedde90',
+                    '#fdbe8590',
+                    '#fd8d3c90',
+                    '#e6550d90',
+                    '#a6360390'
                 ];
 
                 const legend = document.getElementById('legend');
