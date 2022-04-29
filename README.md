@@ -16,6 +16,9 @@ This work includes two maps that show audiences USA Covid-19 in 2020 with two di
 
 ### Links to the Maps
 
+* [Map1: The Rates of Covid-19 per County](https://qianhengzhang.github.io/Covid-19WebMapping/map1.html)
+* [Map2: The Case numbers of Covid-19 per County](https://qianhengzhang.github.io/Covid-19WebMapping/map2.html)
+
 ### Map1: The Rates of Covid-19 per County
 
 ![Covid-19 rates screenshot](/img/map1_screenshot.jpg)

@@ -91,8 +91,8 @@
                     legend.appendChild(item);
                 });
                 legend.innerHTML += "<h3>Sources</h3>"
-                legend.innerHTML += "<a href='https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv' class='centered'>Covid-19 source</a>";
-                legend.innerHTML += "<br><a href='https://data.census.gov/cedsci/table?g=0100000US%24050000&d=ACS%205-Year%20Estimates%20Data%20Profiles&tid=ACSDP5Y2018.DP05&hidePreview=true' class='centered'>Population source</a>";
+                legend.innerHTML += "<a href='https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv' class='centered' target='_blank'>Covid-19 source</a>";
+                legend.innerHTML += "<br><a href='https://data.census.gov/cedsci/table?g=0100000US%24050000&d=ACS%205-Year%20Estimates%20Data%20Profiles&tid=ACSDP5Y2018.DP05&hidePreview=true' class='centered' target='_blank'>Population source</a>";
             });
 
             map.on('mousemove', ({point}) => {
