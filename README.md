@@ -6,7 +6,7 @@ Course: Geog 458
 
 Section: Section AC
 
-Date: Aprill 29 2022
+Date: April 29 2022
 
 ## 1. Introduction to the Maps
 
