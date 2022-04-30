@@ -8,8 +8,6 @@ Section: Section AC
 
 Date: Aprill 29 2022
 
----
-
 ## 1. Introduction to the Maps
 
 This work includes two maps that show audiences USA Covid-19 in 2020 with two different aspects. The purpose of the maps is visualizing the spatial patterns of different counties' Covid-19 cases in order to help make relationship between Covid-19 spread routes with other potential factors such as healthcare, transportation, or local policies in the early stage of pandemic.
